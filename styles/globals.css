@@ -49,3 +49,7 @@ body {
 .active {
   @apply bg-gray-900 text-white dark:bg-gray-100 dark:text-gray-900;
 }
+/* Slightly denser cards on xl screens */
+@media (min-width: 1280px) {
+  .card { padding: 1.25rem; }
+}
